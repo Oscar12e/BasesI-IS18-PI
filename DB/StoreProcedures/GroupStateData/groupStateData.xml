@@ -1,0 +1,8 @@
+<XML>
+  <groupStateData>
+		<groupState ID="0" name="Activo" />
+		<groupState ID="1" name="Inactivo" />
+		<groupState ID="2" name="Cancelado" />
+		<groupState ID="3" name="Congelado" />
+	</groupStateData>
+</XML>

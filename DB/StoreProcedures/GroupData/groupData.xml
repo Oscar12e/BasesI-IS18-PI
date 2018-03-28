@@ -1,0 +1,12 @@
+<XML>
+<groupData>
+		<group ID="0" groupStateID="1" teacherID="8" termID="1" courseName="Fundamentos de organizacion de computadores" code="1818NA" />
+		<group ID="1" groupStateID="2" teacherID="1" termID="0" courseName="Arquitectura de computadores" code="1819FI" />
+		<group ID="2" groupStateID="2" teacherID="6" termID="1" courseName="Bases de datos I" code="1820VU" />
+		<group ID="3" groupStateID="2" teacherID="9" termID="1" courseName="Bases de datos II" code="1821AT" />
+		<group ID="4" groupStateID="2" teacherID="1" termID="2" courseName="Investigacion de operaciones" code="1822SO" />
+		<group ID="5" groupStateID="1" teacherID="1" termID="2" courseName="Analisis de algoritmos" code="1823SE" />
+		<group ID="6" groupStateID="2" teacherID="3" termID="1" courseName="Estadistica" code="1824BO" />
+		<group ID="7" groupStateID="2" teacherID="2" termID="1" courseName="Probabilidades" code="1825KA" />
+	</groupData>
+</XML>

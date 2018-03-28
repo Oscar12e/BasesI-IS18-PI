@@ -1,0 +1,8 @@
+<XML>
+    <itemData>
+		<item ID="0" name="Examen" />
+		<item ID="1" name="Proyecto" />
+		<item ID="2" name="Tarea" />
+		<item ID="3" name="Quiz" />
+	</itemData>
+</XML>

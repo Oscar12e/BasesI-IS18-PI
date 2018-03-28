@@ -1,0 +1,36 @@
+<XML>
+    <groupItemData>
+		<groupItem ID="0" itemID="0" groupID="0" percentage="7.4625338072766825" count="5" constantCount="True" />
+		<groupItem ID="1" itemID="1" groupID="0" percentage="32.82117309611841" count="5" constantCount="True" />
+		<groupItem ID="2" itemID="2" groupID="0" percentage="33.2579605250472" count="3" constantCount="True" />
+		<groupItem ID="3" itemID="3" groupID="0" percentage="26.4583325715577" count="5" constantCount="True" />
+		<groupItem ID="4" itemID="0" groupID="1" percentage="36.46783885593498" count="1" constantCount="True" />
+		<groupItem ID="5" itemID="1" groupID="1" percentage="27.91040103957499" count="5" constantCount="True" />
+		<groupItem ID="6" itemID="2" groupID="1" percentage="21.96446690027329" count="4" constantCount="True" />
+		<groupItem ID="7" itemID="3" groupID="1" percentage="13.657293204216748" count="5" constantCount="True" />
+		<groupItem ID="8" itemID="0" groupID="2" percentage="35.97580726927801" count="5" constantCount="True" />
+		<groupItem ID="9" itemID="1" groupID="2" percentage="28.118777168609217" count="5" constantCount="True" />
+		<groupItem ID="10" itemID="2" groupID="2" percentage="17.809208234710418" count="5" constantCount="True" />
+		<groupItem ID="11" itemID="3" groupID="2" percentage="18.09620732740236" count="5" constantCount="True" />
+		<groupItem ID="12" itemID="0" groupID="3" percentage="31.873238441196246" count="3" constantCount="True" />
+		<groupItem ID="13" itemID="1" groupID="3" percentage="16.796460261631825" count="2" constantCount="True" />
+		<groupItem ID="14" itemID="2" groupID="3" percentage="14.555785738991196" count="3" constantCount="True" />
+		<groupItem ID="15" itemID="3" groupID="3" percentage="36.77451555818073" count="5" constantCount="True" />
+		<groupItem ID="16" itemID="0" groupID="4" percentage="23.438031974381744" count="3" constantCount="True" />
+		<groupItem ID="17" itemID="1" groupID="4" percentage="26.481740222369588" count="5" constantCount="True" />
+		<groupItem ID="18" itemID="2" groupID="4" percentage="33.17909433188468" count="2" constantCount="True" />
+		<groupItem ID="19" itemID="3" groupID="4" percentage="16.90113347136399" count="3" constantCount="True" />
+		<groupItem ID="20" itemID="0" groupID="5" percentage="36.45870191609626" count="4" constantCount="True" />
+		<groupItem ID="21" itemID="1" groupID="5" percentage="11.929859185649743" count="3" constantCount="True" />
+		<groupItem ID="22" itemID="2" groupID="5" percentage="46.12025652451217" count="5" constantCount="True" />
+		<groupItem ID="23" itemID="3" groupID="5" percentage="5.491182373741817" count="2" constantCount="True" />
+		<groupItem ID="24" itemID="0" groupID="6" percentage="39.45638721648141" count="5" constantCount="True" />
+		<groupItem ID="25" itemID="1" groupID="6" percentage="10.293941104895179" count="5" constantCount="True" />
+		<groupItem ID="26" itemID="2" groupID="6" percentage="17.43824068549127" count="1" constantCount="True" />
+		<groupItem ID="27" itemID="3" groupID="6" percentage="32.81143099313213" count="1" constantCount="True" />
+		<groupItem ID="28" itemID="0" groupID="7" percentage="26.653809312253838" count="1" constantCount="True" />
+		<groupItem ID="29" itemID="1" groupID="7" percentage="23.58247936825385" count="5" constantCount="True" />
+		<groupItem ID="30" itemID="2" groupID="7" percentage="15.1932803425085" count="2" constantCount="True" />
+		<groupItem ID="31" itemID="3" groupID="7" percentage="34.57043097698382" count="4" constantCount="True" />
+	</groupItemData>
+</XML>

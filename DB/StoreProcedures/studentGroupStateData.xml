@@ -1,0 +1,8 @@
+<XML>
+    <studentGroupStateData>
+		<studentGroupState ID="0" name="Aprobado" />
+		<studentGroupState ID="1" name="Reprobado" />
+		<studentGroupState ID="2" name="Retirado" />
+		<studentGroupState ID="4" name="Abandonado" />
+	</studentGroupStateData>
+</XML>
