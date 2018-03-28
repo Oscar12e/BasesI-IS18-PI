@@ -1,7 +1,9 @@
 --||||||Estudiante||||||||
 --CrearEstudiante
-CREATE PROCEDURE Create_studentData(@Name nvarchar(50),@lastName nvarchar(50),@Email nvarchar(50),@Carnet nvarchar(50),@Phone int)
+use algoDePrueba
+go
 
+CREATE PROCEDURE Create_studentData(@Name nvarchar(50),@lastName nvarchar(50),@Email nvarchar(50),@Carnet nvarchar(50),@Phone int)
 AS
 BEGIN
 	BEGIN TRY 
@@ -143,6 +145,7 @@ BEGIN
 	
 END
 GO
+
 --Create_EstadoEstudiante_From_XML
  CREATE PROCEDURE [dbo].[readXML_studentGroupStateData] 
 AS
@@ -176,7 +179,7 @@ DECLARE @xml xml
 	END CATCH
 END
 Go
---||||||GRUPO||||||||
+--||||||   GRUPO   ||||||||
 --||||||EstadoGrupo||||||||
 --Create_EstadoGrupo
 CREATE PROCEDURE [dbo].[Create_groupStateData] (@Estado nvarchar(50))
@@ -246,3 +249,98 @@ BEGIN
 END
 GO
 --Ejecutar simulacion.
+
+
+go
+--- READ ---
+
+-- Read_studentData ---
+CREATE PROCEDURE Read_studentData
+AS
+BEGIN
+begin tran
+	select E.Nombre, E.Apellido, E.Carne, E.Telefono, E.Email
+	from Estudiante E
+commit tran
+END
+GO
+
+--- Read_TeacherData -- 
+CREATE PROCEDURE Read_TeacherData
+AS
+BEGIN
+begin tran
+	select P.Nombre, P.Email
+	from Profesor P
+commit tran
+END
+GO
+
+--- Nombre -- 
+
+CREATE PROCEDURE Read_studentGroupStateData
+AS
+BEGIN
+begin tran
+	select  E.Nombre
+	from EstadoEstudiante E
+commit tran
+END
+
+GO
+
+
+CREATE PROCEDURE Read_groupStateData
+AS
+BEGIN
+begin tran
+	select E.Nombre
+	from EstadoGrupo E
+commit tran
+END
+GO
+
+
+CREATE PROCEDURE Read_groupData
+AS
+BEGIN
+begin tran
+	select G.NombreCurso as 'Curso', PR.Nombre as 'Profesor', PE.FechaI 'Inicio', PE.FechaF 'Fin'
+	from Grupo G
+	inner join Profesor PR on G.FK_Profesor = PR.ID
+	inner join Periodo PE on G.FK_Periodo = PE.ID
+commit tran
+END
+
+GO
+
+CREATE PROCEDURE Read_groupByStudentData
+AS
+BEGIN
+begin tran
+	select E.Nombre as 'Estudiante', G.NombreCurso as 'Curso', EE.Nombre as 'Estado'
+	from GrupoxEstudiante GE
+	inner join Estudiante E on GE.FK_Estudiante = E.ID
+	inner join Grupo G on GE.FK_Grupo = G.ID
+	inner join EstadoEstudiante EE on GE.FK_Estado = EE.ID
+
+	order by 1
+commit tran
+END
+
+GO
+
+/*
+--- Nombre -- 
+
+CREATE PROCEDURE Read_
+AS
+BEGIN
+begin tran
+	select
+	from 
+commit tran
+END
+
+GO
+*/

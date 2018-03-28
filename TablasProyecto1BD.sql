@@ -1,8 +1,8 @@
 --create database algoDePrueba
+--drop database algoDePrueba 
+go
 
-
-
-
+use algoDePrueba
 create table Periodo(
 	ID integer primary key identity (0,1),
 	Estado  nvarchar(50) not null,
@@ -43,11 +43,11 @@ create table EstadoEstudiante(
 
 create table Estudiante (
 	ID int primary key identity(0,1),
-	Nombre nvarchar(50) not null unique,
+	Nombre nvarchar(50) not null,
 	Apellido nvarchar(50) not null,
 	Telefono int not null,
 	Email nvarchar(50) not null,
-	Carne nvarchar(50) not null
+	Carne nvarchar(50) not null unique
 )
 
 
@@ -56,7 +56,7 @@ create TABLE GrupoxEstudiante(
 	FK_Grupo int not null foreign key references Grupo(ID),
 	FK_Estado int not null foreign key references EstadoEstudiante(ID),
 	FK_Estudiante int not null foreign key references Estudiante(ID),
-	NotaAcumulada int not null
+	NotaAcumulada int not null 
 )
 
 
